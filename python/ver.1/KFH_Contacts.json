@@ -1,0 +1,81 @@
+{
+  "ID":0,
+  "date": "April 12, 2018",
+  "all": [
+    {
+      "website": [
+        {
+          "type": "home",
+          "site": "www.karshi.ca"
+        },
+        {
+          "type": "business",
+          "site": "map.karshi.ca"
+        },
+        {
+          "type": "education",
+          "site": "www.RhysicsReviews.ca"
+        }
+      ],
+      "phone": [
+        {
+          "type": "home",
+          "number": "1 647 639-5159"
+        },
+        {
+          "type": "work",
+          "number": "1 617 419-6655"
+        },
+        {
+          "type": "mobile",
+          "number": "1 647 639-5159"
+        }
+      ],
+      "firstName": "Karshi",
+      "lastName": "Hasanov",
+      "id":0,
+      "notes": null,
+      "address-info": [
+        " 28 Telfer Gardens, Scarborough, M1B 6C2, ON, Canada ",
+        " 82 Bradworthy Court, Scarborough, M1B 2S7, ON, Canada ",
+        " 27 Shademaster Court, Scarborough, ON, M1B 1Y5, Canada",
+        " 340 Gladstone Ave, Windsor ON N9A 2P7, Canada"
+      ],
+      "address": [
+        {
+          "province": "ON",
+          "city": "North York",
+          "country": "Canada",
+          "state": null,
+          "street": "11 Crispin Crescent",
+          "postalCode": "M2R 2V6",
+          "type": "home"
+        },
+        {
+          "province": "ON",
+          "city": "Toronto",
+          "country": "Canada",
+          "state": null,
+          "street": "14-1085 Bellamy",
+          "postalCode": "M1H 3C7",
+          "type": "business"
+        }
+      ],
+      "email": [
+        {
+          "type": "unversity",
+          "address": "karshi.hasanov@utoronto.ca"
+        },
+        {
+          "type": "google",
+          "address": "karshi.hasanov@gmail.com"
+        },
+        {
+          "type": "apple",
+          "address": "karshi.hasanov@icloud.com"
+        }
+      ],
+      "categories": "private"
+    }
+  ]
+}

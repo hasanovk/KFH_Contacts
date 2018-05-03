@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Contact Form</title>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+      <form action="process.php" method="post">
+			<label for="fName">First Name:</label><br>
+            <input type="text" name= "fName" placeholder="First Name" autofocus><br><br>
+
+            <label for="lName">Last Name:</label><br>
+            <input type="text" name= "lName" placeholder="Last Name" autofocus><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" name= "phone" placeholder="(xxx) xxx xxxx" autofocus>
+            <select name="phone_type">
+                 <option value="home">home</option>
+                 <option value="work">work</option>
+                 <option value="business">business</option>
+                 <option value="mobile">mobile</option>
+            </select><br><br>
+<!--
+            <label for="email">Email Address:</label><br>
+            <input type="email" name= "email" placeholder="first.last@icloud.com" autofocus>
+            <select name="email_type">
+                 <option value="personal">personal</option>
+                 <option value="work">work</option>
+                 <option value="business">business</option>
+                 <option value="mobile">mobile</option>
+            </select><br><br>
+
+            <label for="home"> Home Address: <label>
+            <input type="radio" name= "address" id="home" value="home" checked="checked">
+            <label for="home"> Business Address: <label>
+            <input type="radio" name= "address" id="busniess" value="business">
+            <label for="home"> PO Box: <label>
+            <input type="radio" name= "address" id="PO Box" value="pobox"> <br><br>
+
+            <label for="street">Street Name:</label>
+            <input type="text" name= "street" placeholder="Street " autofocus>
+            <label for="city">City:</label>
+            <input type="text" name= "city" placeholder="City" autofocus><br><br>
+
+            <label for="province">Province/State:</label>
+            <input type="text" name= "province" placeholder="Province/State" autofocus>
+            <label for="postalcode">Postale Code:</label>
+            <input type="text" name= "postalcode" placeholder="Postal Code" autofocus>
+            <br><br>
+            <label for="country">Country:</label>
+            <input type="text" name= "country" placeholder="Country" autofocus> <br><br>
+
+            <label for="notes">Notes:</label> <br><br>
+            <textarea  name="notes" cols = "60" rows = "10" ></textarea> <br><br> -->
+
+            <input type="submit"  name= "submit" value="Submit"/>
+            </form>
+
+
+
+
+
+</body>
+</html>
+
+<!--
+    INPUT Attributes:
+        accept (type="file"), alt(type="image"),autocomplete ('on'/'off'),
+        autofocus, checked (type='chechbox'),formaction(type="submit,image",'URL'),
+        name, placeholder, require, src (type="image"), value
+        ...
+
+    INPUT types:
+        button, checkbox, color, date, datetime-local,email, file, hidden,
+        image, month, number, password, radio, range, reset, search, submit
+        tel, text, time, url,   week
+-->
